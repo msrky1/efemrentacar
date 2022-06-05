@@ -59,7 +59,7 @@ mega menu -->
               <ul class="menu-links">
                 <!-- active class -->
                 <li class="active">
-                  <a href="javascript:void(0)">
+                  <a href="/">
                     Anasayfa </a>
                   <!-- drop down multilevel  -->
                 
@@ -69,23 +69,17 @@ mega menu -->
                   <a href="javascript:void(0)">Kurumsal <i class="fa fa-angle-down fa-indicator"></i></a>
                   <!-- drop down multilevel  -->
                   <ul class="drop-down-multilevel">
-                    <li>
-                      <a href="javascript:void(0)">Faaliyet Alanlarımız
-                       
-                      </a>
-                      <!-- drop down second level -->
-                      
-                    </li>
+                    
                     
                     <li>
-                      <a href="javascript:void(0)">Hakkımızda   
+                      <a href="/hakkimizda">Hakkımızda   
                        
                       </a>
                       <!-- drop down second level -->
                       
                     </li>
                     <li>
-                      <a href="javascript:void(0)">Sıkça Sorulan Sorular   
+                      <a href="/sss">Sıkça Sorulan Sorular   
                        
                       </a>
                       <!-- drop down second level -->
@@ -99,18 +93,18 @@ mega menu -->
                     <i class="fa fa-angle-down fa-indicator"></i></a>
                   <!-- drop down multilevel  -->
                   <ul class="drop-down-multilevel">
-                    <li><a href="listing-01.html">text-md-start</a></li>
+                    <li><a href="/tum-araclarimiz">Tüm Araçlarımız</a></li>
                    
                   </ul>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Galeri   
+                  <a href="/galeri">GALERİ   
                    
                   </a>
                   <!-- drop down second level -->
                   
                 </li>
-                <li>
+                {{-- <li>
                   <a href="javascript:void(0)">İş Ortaklarımız
                     <i class="fa fa-angle-down fa-indicator"></i></a>
                   <!-- drop down multilevel  -->
@@ -118,9 +112,9 @@ mega menu -->
                     <li><a href="details-01.html">details 01</a></li>
                     <li><a href="details-02.html">details 02</a></li>
                   </ul>
-                </li>
+                </li> --}}
                 <li>
-                  <a href="javascript:void(0)">
+                  <a href="/iletisim">
                     İLETİŞİM </a>
                   <!-- drop down multilevel  -->
                  

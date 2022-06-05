@@ -16,7 +16,7 @@ class TeamAddComponent extends Component
     public $about;
     public $date_birth;
     public $image;
-    public $pozition;
+    
 
 
     public function addTeam() {
@@ -24,7 +24,6 @@ class TeamAddComponent extends Component
         $lawyer = new Lawyer();
         $lawyer->name = $this->name;
         $lawyer->about = $this->about;
-        $lawyer->pozition = $this->pozition;
         $lawyer->date_birth = $this->date_birth;
 
 
@@ -34,11 +33,11 @@ class TeamAddComponent extends Component
         $notification = new Notification();
 
         $notification->name = $this->name;
-        $notification->notification = 'Ekibe Yeni bir Üye Başarıyla Eklendi!';
+        $notification->notification = 'Yeni bir Araç Başarıyla Eklendi!';
         $notification->color = 'success';
         $notification->save();
         $lawyer->save();
-        session()->flash('message' , 'Ekibe Başarıyla Eklendi!');
+        session()->flash('message' , 'Yeni Bir Araç Başarıyla Eklendi!');
          
        }
        

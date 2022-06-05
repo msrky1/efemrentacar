@@ -1,121 +1,33 @@
-<div class="banner-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="main-bennar">
-                    <h2>İş Ortaklarımız</h2>
-                    <div class="breadcumb">
-                        <ul>
-                            <li>
-                                <a href="/">Anasayfa</a>
-                            </li>
-                            <li>İş Ortaklarımız</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--  Banner Area End here -->
-<!-- Practice Area Start Here -->
-<div class="our-wining-awards-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="wining-section-area">
-                    <h2>İş Ortaklarımız</h2>
-                 
-                </div>
-            </div>
-        </div>
-        <div class="wining-section">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-wining-section">
-                        <div class="image">
-                            <a href="#">
-                                <img src="{{asset('assets/img/partner')}}/002.png" alt="images">
-                            </a>
-                        </div>
-            
-                    </div>
-                    <h4>QNB FİNANSBANK A.Ş</h4>
-                </div>
-               
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-wining-section">
-                        <div class="image">
-                            <a href="#">
-                                <img src="{{asset('assets/img/partner')}}/001.jpg" alt="images">
-                            </a>
-                        </div>
-              
-                    </div>
-                    <h4> DENİZBANK A.Ş</h4>
-                </div>
-            
-              
 
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-wining-section">
-                        <div class="image">
-                            <a href="#">
-                                <img src="{{asset('assets/img/partner')}}/004.jpg" alt="images">
-                            </a>
-                        </div>
-            
-                    </div>
-                    <h4> TÜRK EKONOMİ BANKASI A.Ş </h4>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-wining-section">
-                        <div class="image">
-                            <a href="#">
-                                <img src="{{asset('assets/img/partner')}}/003.png" alt="images">
-                            </a>
-                        </div>
-                       
-                    </div>
-                <h4> ING BANK A.Ş </h4>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-wining-section">
-                        <div class="image">
-                            <a href="#">
-                                <img src="{{asset('assets/img/partner')}}/009.png" alt="images">
-                            </a>
-                        </div>
-            
-                    </div>
-                    <h4> BİRLEŞİK AVUKATLAR BÜROSU </h4>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-wining-section">
-                        <div class="image">
-                            <a href="#">
-                                <img src="{{asset('assets/img/partner')}}/10.png" alt="images">
-                            </a>
-                        </div>
-            
-                    </div>
-                    <h4>BAP KURUMSAL HİZMETLER A.Ş </h4>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-wining-section">
-                        <div class="image">
-                            <a href="#">
-                                <img src="{{asset('assets/img/partner')}}/11.png" alt="images">
-                            </a>
-                        </div>
-            
-                    </div>
-                    <h4> FU GAYRİMENKUL A.Ş </h4>
-                </div>
+    <section class="inner-intro bg-1 bg-overlay-black-70">
+        <div class="container">
+          <div class="row text-center intro-title">
+            <div class="col-md-6 text-md-start d-inline-block">
+              <h1 class="text-white">İŞ ORTAKLARIMIZ</h1>
             </div>
+            <div class="col-md-6 text-md-end float-end">
+              <ul class="page-breadcrumb">
+                <li>
+                  <a href="#"><i class="fa fa-home"></i> Anasayfa</a>
+                  <i class="fa fa-angle-double-right"></i>
+                </li>
+                <li>
+                  <a href="#">Sayfalar</a> <i class="fa fa-angle-double-right"></i>
+                </li>
+                <li><span>İş Ortaklarımız</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
-<!-- Practice Area End Here -->
-<!-- Make An Appointment Area Start here -->
-
+      </section>
+  
+      <!--=================================
+   inner-intro -->
+  
+      <!--=================================
+   contact -->
+  
+  
+  
+      <!--=================================
+   contact -->

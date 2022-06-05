@@ -51,7 +51,9 @@ class HomeComponent extends Component
 
           'team' => $lawyer,
           'blog' => $blog,
-           'galery' => $Galery
+           'galery' => $Galery, 
+
+           'questions' => $question
 
         
         

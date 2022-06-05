@@ -17,7 +17,6 @@ class TeamEditComponent extends Component
     public $newimage;
     public $lawyer_id; 
     public $about;
-    public $pozition;
 
 
     public function mount($lawyer_id) {
@@ -26,7 +25,7 @@ class TeamEditComponent extends Component
         
         $this->name = $lawyer->name;
         $this->about = $lawyer->about;
-        $this->pozition = $lawyer->pozition;
+
         $this->date_birth = $lawyer->date_birth;
         $this->image = $lawyer->image;
         $this->lawyer_id = $lawyer->id;
@@ -40,7 +39,6 @@ class TeamEditComponent extends Component
 
             $lawyer->name = $this->name;
             $lawyer->about = $this->about;
-            $lawyer->pozition = $this->pozition;
             $lawyer->date_birth = $this->date_birth;
       
             

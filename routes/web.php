@@ -132,7 +132,7 @@ Route::get('/galeri' , GaleryComponent::class);
 Route::get('/hakkimizda' , AboutComponent::class);
 Route::get('/sss' , QuestionsComponent::class);
  Route::get('/neler-yapiyoruz' , WhatdoComponent::class);
- Route::get('/ekibimiz' , TeamComponent::class);
+ Route::get('/tum-araclarimiz' , TeamComponent::class);
  Route::get('/blog' , BlogComponent::class);
  Route::get('/iletisim' , ContactComponent::class);
  Route::get('/is-ortaklarimiz' , BusinessPartnerComponent::class);

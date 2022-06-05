@@ -3,12 +3,12 @@
 
         <div class="app-content pt-3 p-md-3 p-lg-4">
             <div class="container-xl">
-                <h1 class="app-page-title">Ekip</h1>
+                <h1 class="app-page-title">Araçlar</h1>
                 <hr class="mb-4">
                 <div class="row g-4 settings-section">
                     <div class="col-12 col-md-4">
-                        <h3 class="section-title">Ekip Güncelle</h3>
-                        <div class="section-intro">Ekibi Güncelleyin<a
+                        <h3 class="section-title">Araç Güncelle</h3>
+                        <div class="section-intro">Aracı Güncelleyin<a
                                 href="{{ route('admin.help') }}"><br>
                                 Daha
                                 Fazla Öğren</a></div>
@@ -18,7 +18,7 @@
                             @if (Session::has('message'))
                                 <div class="alert alert-success">
                                     <strong>{{ Session::get('message') }}</strong> <a style="color: red"
-                                        href="{{ route('admin.team') }}"> Ekibi Görüntüle!</a>
+                                        href="{{ route('admin.team') }}"> Araçları Görüntüle!</a>
                                 </div>
                             @endif
                             <div class="app-card-body">
@@ -26,7 +26,7 @@
                                     @csrf
                                     <div class="mb-3">
 
-                                        <label for="setting-input-2" class="form-label">Adı Soyadı </label>:
+                                        <label for="setting-input-2" class="form-label">Araç Adı </label>:
                                         <input type="text" name="name" class="form-control" wire:model="name"
                                             required>
 
@@ -34,7 +34,7 @@
                                     </div>
                                     <div class="mb-3">
 
-                                        <label for="setting-input-2" class="form-label">Hakkında </label>:
+                                        <label for="setting-input-2" class="form-label">Araç Hakkında </label>:
                                         <input type="text" name="about" class="form-control" wire:model="about"
                                             required>
 
@@ -43,23 +43,16 @@
 
                                     <div class="mb-3">
 
-                                        <label for="setting-input-2" class="form-label">Doğum Tarihi </label>:
-                                        <input type="text" placeholder="örn.(1995-01-23)" name="date_birth" class="form-control" wire:model="date_birth"
+                                        <label for="setting-input-2" class="form-label">Araç Model </label>:
+                                        <input type="text" placeholder="örn.(2008)" name="date_birth" class="form-control" wire:model="date_birth"
                                             required>
 
 
                                     </div>
 
 
-                                    <div class="mb-3">
-
-                                        <label for="setting-input-2" class="form-label">Pazisyonu </label>:
-                                        <input type="text" placeholder="Avukat" name="pozition" class="form-control" wire:model="pozition"
-                                            required>
-
-
-                                    </div>
-
+                                   
+                                    
 
                                    
                                     <div class="mb-3">
@@ -79,7 +72,7 @@
 
 
                                     <button class="btn app-btn-primary" type="submit">
-                                        Kaydet
+                                       Güncelle
                                     </button>
                                 </form>
 

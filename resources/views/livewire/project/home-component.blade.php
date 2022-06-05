@@ -229,12 +229,13 @@
   </section>
 
 
+ 
   <section class="feature-car white-bg page-section-ptb">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="section-title">
-            <span>Araçlarımız</span>
+            <span>Efem Rent A Car </span>
             <h2>Araçlarımız</h2>
             <div class="separator"></div>
           </div>
@@ -244,47 +245,79 @@
         <div class="col-md-12">
           <div class="owl-carousel owl-theme" data-nav-arrow="true" data-items="4" data-md-items="4" data-sm-items="2"
             data-xs-items="1" data-space="20">
-
-            @foreach ($whatdo as $item)
-                
            
+            @foreach ($team as $item)
+                
             <div class="item">
               <div class="car-item car-item-4 text-center">
                 <div class="car-image">
-                  <img class="img-fluid" src="{{asset('assets')}}/images/car/01.jpg" alt="" />
+                  <img class="img-fluid" src="{{asset('storage')}}/team/{{$item->image}}" alt="" />
                   <div class="car-overlay-banner">
                     <ul>
                       <li>
                         <a href="#"><i class="fa fa-link"></i></a>
                       </li>
-                      <li>
-                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                      </li>
+                     
                     </ul>
                   </div>
                 </div>
                 <div class="car-list">
                   <ul class="list-inline">
-                    <li><i class="fa fa-registered"></i> 2016</li>
-                    <li><i class="fa fa-cog"></i> Manual</li>
-                    <li><i class="fa fa-shopping-cart"></i> 6,000 mi</li>
+                    <li><i class="fa fa-registered"></i> {{$item->date_birth}}</li>
+                    <li><i class="fa fa-cog"></i> {{$item->about}}</li>
+                 
                   </ul>
                 </div>
                 <div class="car-content">
-                  <a href="#">Acura Rsx</a>
+                  <a href="#">{{$item->name}}</a>
                   <div class="separator"></div>
                   <div class="price">
-                    <span class="old-price">$35,568</span>
-                    <span class="new-price">$32,698 </span>
+                    
+              <a href="/iletisim"   >    <span class="new-price">İletişim </span> </a>
                   </div>
                 </div>
               </div>
             </div>
-
             @endforeach
+           
           </div>
         </div>
       </div>
     </div>
   </section>
+  <section class="why-choose-us bg-2 bg-overlay-black-70 page-section-ptb">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title">
+            <span class="text-white">Sık Sorulan Sorular</span>
+            <h2 class="text-white">Bize Gelen Sık Sorular</h2>
+            <div class="separator"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
 
+        @foreach ($questions as $item)
+            
+   
+        <div class="col-md-4 col-sm-6">
+          <div class="feature-box-2 box-hover active">
+            <div class="icon">
+              <i class="glyph-icon flaticon-beetle"></i>
+            </div>
+            <div class="content">
+              <h5>{{$item->title}}</h5>
+              <p class="mb-0">
+                {{$item->description}}
+              </p>
+            </div>
+          </div>
+        </div>
+        @endforeach
+      </div>
+      
+      </div>
+    </div>
+  </section>

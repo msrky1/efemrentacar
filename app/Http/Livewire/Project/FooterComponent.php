@@ -7,6 +7,7 @@ use App\Models\About;
 use App\Models\Whatdo;
 use App\Models\Setting;
 use App\Models\Galery;
+use App\Models\Lawyer;
 
 class FooterComponent extends Component
 {
@@ -18,7 +19,9 @@ class FooterComponent extends Component
       
      
         $whatdo = Whatdo::orderBy('id', 'DESC')->paginate('6');
+        $team = Lawyer::orderBy('id', 'DESC')->paginate('6');
         $setting = Setting::all();
+   
   
         $about = About::all();
      
@@ -33,7 +36,9 @@ class FooterComponent extends Component
   
             'whatdo' => $whatdo, 
   
-             'galery' => $galery
+             'galery' => $galery, 
+
+             'team' => $team
       
         ]);
     }

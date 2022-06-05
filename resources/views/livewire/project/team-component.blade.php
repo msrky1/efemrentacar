@@ -1,81 +1,23 @@
-<div class="banner-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="main-bennar">
-                    <h2>EKİBİMİZ</h2>
-                    <div class="breadcumb">
-                        <ul>
-                            <li>
-                                <a href="/">Anasayfa</a>
-                            </li>
-                            <li>Ekibimiz</li>
-                        </ul>
-                    </div>
-                </div>
+
+    <section class="inner-intro bg-1 bg-overlay-black-70">
+        <div class="container">
+          <div class="row text-center intro-title">
+            <div class="col-md-6 text-md-start d-inline-block">
+              <h1 class="text-white">ARAÇLARIMIZ</h1>
             </div>
-        </div>
-    </div>
-</div>
-<!--  Banner Area End here -->
-<!-- About Page Lawyer Section Area Start here -->
-<div class="our-attorney-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="section-title-area">
-                    <h2>EKİBİMİZ</h2>
-                   
-                </div>
+            <div class="col-md-6 text-md-end float-end">
+              <ul class="page-breadcrumb">
+                <li>
+                  <a href="#"><i class="fa fa-home"></i> Anasayfa</a>
+                  <i class="fa fa-angle-double-right"></i>
+                </li>
+                <li>
+                  <a href="#">Sayfalar</a> <i class="fa fa-angle-double-right"></i>
+                </li>
+                <li><span>Araçlarımız</span></li>
+              </ul>
             </div>
+          </div>
         </div>
-   
-            
-            <div class="row">
-
-                @foreach ($team as $item)
-               
-                <div class="col-sm-4">
-                <div class="single-attorney">
-                    <div class="attorney-picture">
-                     
-                            <img src="{{asset('storage/team')}}/{{$item->image}}" alt="">
-                  
-                        
-                    </div>
-                    <div class="attorney-content">
-                        <h3>
-                            <a href="#">{{$item->pozition}}</a>
-                        </h3>
-                   
-                    </div>
-                </div>
-                </div>
-                @endforeach
-      
-    
-
-            </div>
-      
-        
-    </div>
-</div>
-<!-- About Page Lawyer Section Area End here -->
-
-<!-- Experience Area Start here -->
-<div class="experince-area">
-    <div class="container">
-        <div class="row">
-            
-        </div>
-    </div>
-</div>
-<!-- Experience Area End here -->
-<!-- Make An Appointment Area Start here -->
-
-<!-- Make An Appointment Area End here -->
-<!-- Our Attorney Start Here -->
-
-<!-- Our Attorney End Here -->
-<!-- Partner Logo Area Start Here -->
-
+      </section>
+  

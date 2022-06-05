@@ -52,10 +52,10 @@
           <h6 class="text-white">Araçlarımız</h6>
           <ul>
 
-            @foreach ($whatdo as $item)
+            @foreach ($team as $item)
                 
             <li>
-              <a href="#"><i class="fa fa-angle-double-right"></i> {{$whatdo->title}}
+              <a href="#"><i class="fa fa-angle-double-right"></i> {{$item->name}}
                 </a>
             </li>
             @endforeach

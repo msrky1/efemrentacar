@@ -68,14 +68,14 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 /*************************
     General
 *************************/
-
-body { font-family: 'Open Sans', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #999999; }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+body { font-family: 'Montserrat', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #999999; }
 a, .btn { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #db2d2e; text-decoration: none !important; }
 a, button, input { outline: medium none !important; color: #db2d2e; text-decoration: none; }
 .uppercase { text-transform: uppercase; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; font-weight: normal; color: #363636; margin-top: 0px; text-transform: uppercase; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight: normal; color: #363636; margin-top: 0px; text-transform: uppercase; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 40px; font-style: normal; font-weight: 500; line-height: 40px; }
 h2 { font-size: 35px; font-style: normal; font-weight: 600; line-height: 35px; }
@@ -263,7 +263,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 #header.defualt { background: transparent; z-index: 999; padding: 0px; margin: 0px; position: absolute; width: 100%; }
 
 /*topbar*/
-.topbar { border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 10px 0px; font-family: 'Roboto', sans-serif; }
+.topbar { border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 10px 0px; font-family: 'Montserrat', sans-serif; }
 .topbar li, .topbar li a { color: #ffffff; }
 .topbar-left li i { padding-right: 5px; }
 .topbar-right .list-inline li:last-child, .topbar-right li:last-child i { padding-right: 0px; }
@@ -274,7 +274,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 .mega-menu .menu-logo { padding: 36px 0px; }
 .mega-menu .menu-logo img { height: 36px; }
 .mega-menu .menu-links > li { line-height: 102px; }
-.mega-menu .menu-links > li > a { /*line-height: 102px*/; text-transform: uppercase; font-size: 13px; font-weight: 500; }
+.mega-menu .menu-links > li > a { /*line-height: 102px*/; text-transform: uppercase; font-size: 18px; font-weight: 500; }
 .mega-menu .drop-down-multilevel.right-menu { right: 0px; }
 .mega-menu .menu-links > li:last-child > a { padding-right: 0px; }
 .mega-menu .menu-links > li.active .drop-down-multilevel a { color: #555555; }
@@ -307,7 +307,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
     Topbar dark
 *************************/
 #header.topbar-dark { background: #ffffff; z-index: 999; padding: 0px; margin: 0px; position: relative; width: 100%; }
-#header.topbar-dark .topbar { border-bottom: 0; background: #323232; padding: 10px 0px; font-family: 'Roboto', sans-serif; }
+#header.topbar-dark .topbar { border-bottom: 0; background: #323232; padding: 10px 0px; font-family: 'Montserrat', sans-serif; }
 #header.topbar-dark .mega-menu .menu-links > li > a { color: #323232; }
 #header.topbar-dark .mega-menu .menu-links > li > a:hover { color: #db2d2e; }
 #header.topbar-dark .mega-menu.desktopTopFixed > section.menu-list-items { background: #ffffff; border-bottom: 1px solid #f6f6f6;  }
@@ -542,7 +542,7 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
        Latest blog
 **************************************/
 .blog-1 .blog-content { padding-left: 30px; }
-.blog-1 .blog-content a.link { text-transform: uppercase; position: relative; padding-bottom: 10px; line-height: 24px; font-size: 18px; color: #363636; font-weight: 600; font-family: 'Roboto', sans-serif; display: block; margin-bottom: 20px; }
+.blog-1 .blog-content a.link { text-transform: uppercase; position: relative; padding-bottom: 10px; line-height: 24px; font-size: 18px; color: #363636; font-weight: 600; font-family: 'Montserrat', sans-serif; display: block; margin-bottom: 20px; }
 .blog-1 .blog-content a.link:before { position: absolute; content: ""; width: 20px; height: 2px; background: #db2d2e; left: 0px; bottom: 0px; }
 .blog-1 .blog-content a.link:hover { color: #db2d2e; }
 .blog-1 .blog-content p { margin-top: 25px; }
