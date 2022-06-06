@@ -317,7 +317,21 @@
         </div>
         @endforeach
       </div>
-      
+      <div class="col-md-4 col-sm-6">
+        <div class="feature-box-2  ">
+         <div class="owl-carousel owl-theme" data-nav-arrow="true" data-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1" data-space="0">
+         
+           @foreach ($galery as $item)
+               
+       
+            <div class="item">
+             <img class="img-fluid" src="{{asset('storage')}}/galery/{{$item->image}}" alt="">
+            </div>
+            @endforeach
+          </div>
+        </div>
+      </div>
       </div>
     </div>
+   
   </section>

@@ -20,4 +20,53 @@
           </div>
         </div>
       </section>
+
+      <section class="our-team white-bg page-section-ptb">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-title">
+                <span>Araç Filomuz</span>
+                <h2>EFEM RENT A CAR HİZMET ARAÇLARIMIZ</h2>
+                <div class="separator"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            @foreach ($team as $item)
+                
+    
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="team text-center mb-0">
+                <div class="team-image">
+                  <img class="img-fluid icon" src="{{asset('storage')}}/team/{{$item->image}}" alt="" />
+                  <div class="team-social">
+                    <ul>
+                      <li>
+                        <a class="icon-1" href="https://www.facebook.com/ayaz4666"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="icon-2" href="https://www.instagram.com/efemotokiralama46/"
+                          ><i class="fa fa-instagram"></i
+                        ></a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                </div>
+                <div class="team-name">
+                  <h5 class="text-black">{{$item->name}}</h5>
+                  <span class="text-black">{{$item->date_birth}} Model</span>
+                  <span class="text-black">{{$item->about}} Vites</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          @endforeach
+        </div>
+      </section>
+  
   

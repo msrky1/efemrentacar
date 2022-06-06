@@ -39,20 +39,7 @@
            @endforeach
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-         <div class="owl-carousel owl-theme" data-nav-arrow="true" data-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1" data-space="0">
-         
-           @foreach ($galery as $item)
-               
-       
-            <div class="item">
-             <img class="img-fluid" src="{{asset('storage')}}/galery/{{$item->image}}" alt="">
-            </div>
-            @endforeach
-          </div>
-        </div>
-      </div>
+     
       
     </div>
   </section>

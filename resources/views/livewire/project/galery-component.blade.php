@@ -47,8 +47,8 @@
                                         class="fa fa-plus"></i></a>
                             </div>
                             <div class="car-overlay text-center">
-                                <a class="link" href="#">Toyota avalon hybrid </a>
-                                <span class="price">$32,698</span>
+                                <a class="link" href="#">EFEM RENT A CAR </a>
+                                
                             </div>
                         </div>
                     </div>
