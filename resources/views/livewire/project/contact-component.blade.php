@@ -70,4 +70,23 @@
       </section>
   
       <!--=================================
-   contact -->
+   contact -->  <section class="contact page-section-ptb white-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title">
+              <span>Haritadan yol tarifi alarak bulunduğumuz konuma ulaşabilirsiniz.</span>
+              <h2>KONUM</h2>
+              <div class="separator"></div>
+            </div>
+          </div>
+        </div>
+        <section class="contact-map">
+          <div class="container-fluid">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12648.671629833352!2d36.92840216851988!3d37.574663693441856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152ddd133a479f5b%3A0x29c5f6e85c5f6a7c!2sKahramanmara%C5%9F%20Oto%20Kiralama%20Efem%20Rent%20A%20Car!5e0!3m2!1str!2str!4v1654601758481!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
+    
+        </div>
+      </div>
+    </section>

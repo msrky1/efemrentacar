@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="keywords" content="HTML5 Template" />
-        <meta name="description" content="Car Dealer - The Best Car Dealer Automotive Responsive HTML5 Template" />
-        <meta name="author" content="potenzaglobalsolutions.com" />
+        <meta name="keywords" content="Efem Rent A Car , Kahramanmaraş Rent A Car " />
+        <meta name="description" content="Efem Rent A Car  - Kahramanmaraş Oto Kiralama " />
+        <meta name="author" content="efenrentacar.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <title>
           Efem Rent A Car | Araç Kiralama

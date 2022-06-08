@@ -25,10 +25,10 @@
             
    
         <div class="about-content">
-          <img class="img-fluid" id="logo-footer" src="{{asset('storage')}}/image/{{$item->image}}" alt="" />
-          <p>
+          {{-- <img class="img-fluid" id="logo-footer" src="{{asset('storage')}}/image/{{$item->image}}" alt="" /> --}}
+       <h2 style="color: white">
             {{$item->name}}
-          </p>
+       </h2>
         </div>
         <div class="address">
           <ul>
@@ -55,7 +55,7 @@
             @foreach ($team as $item)
                 
             <li>
-              <a href="#"><i class="fa fa-angle-double-right"></i> {{$item->name}}
+              <a href="/tum-araclarimiz"><i class="fa fa-angle-double-right"></i> {{$item->name}}
                 </a>
             </li>
             @endforeach
@@ -117,3 +117,7 @@
     </div>
   </div>
 </footer>
+
+<a href="https://wa.me/05369265914" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>

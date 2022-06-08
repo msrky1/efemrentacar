@@ -19,17 +19,12 @@
             <ul class="list-inline">
               <li><i class="fa fa-phone"></i>{{$item->contact}}</li>
               <li>
-                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="https://www.facebook.com/ayaz4666"><i class="fa fa-facebook"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/efemotokiralama46/"><i class="fa fa-instagram"></i></a>
               </li>
-              <li>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-youtube-play"></i></a>
-              </li>           @endforeach
+                   @endforeach
             </ul>
           </div>
         </div>
@@ -60,19 +55,19 @@ mega menu -->
                 <!-- active class -->
                 <li class="active">
                   <a href="/">
-                    Anasayfa </a>
+                    ANASAYFA </a>
                   <!-- drop down multilevel  -->
                 
                 </li>
              
                 <li>
-                  <a href="javascript:void(0)">Kurumsal <i class="fa fa-angle-down fa-indicator"></i></a>
+                  <a href="javascript:void(0)">KURUMSAL <i class="fa fa-angle-down fa-indicator"></i></a>
                   <!-- drop down multilevel  -->
                   <ul class="drop-down-multilevel">
                     
                     
                     <li>
-                      <a href="/hakkimizda">Hakkımızda   
+                      <a href="/hakkimizda">HAKKIMIZDA   
                        
                       </a>
                       <!-- drop down second level -->
@@ -89,7 +84,7 @@ mega menu -->
                   </ul>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Araçlarımız
+                  <a href="javascript:void(0)">ARAÇLARIMIZ
                     <i class="fa fa-angle-down fa-indicator"></i></a>
                   <!-- drop down multilevel  -->
                   <ul class="drop-down-multilevel">

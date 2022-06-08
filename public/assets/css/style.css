@@ -69,7 +69,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
     General
 *************************/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-body { font-family: 'Montserrat', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #999999; }
+body { font-family: 'Montserrat', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #fd0000; }
 a, .btn { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #db2d2e; text-decoration: none !important; }
@@ -271,37 +271,9 @@ select { border: 1px solid #232323; color: #777; cursor: pointer; display: block
 .topbar-right li i { padding-right: 5px; }
 
 /*mega-menu*/
-.mega-menu .menu-logo { padding: 36px 0px; }
-.mega-menu .menu-logo img { height: 36px; }
-.mega-menu .menu-links > li { line-height: 102px; }
-.mega-menu .menu-links > li > a { /*line-height: 102px*/; text-transform: uppercase; font-size: 18px; font-weight: 500; }
-.mega-menu .drop-down-multilevel.right-menu { right: 0px; }
-.mega-menu .menu-links > li:last-child > a { padding-right: 0px; }
-.mega-menu .menu-links > li.active .drop-down-multilevel a { color: #555555; }
-.mega-menu .menu-links > li.active .drop-down-multilevel a:hover { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down a { color: #323232; }
-.mega-menu .menu-links > li.active .drop-down li.active a { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down a:hover { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down li.active a i { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down a i:hover { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active a { color: #db2d2e; background: #f6f6f6; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li a { color: #323232; background: transparent; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li a:hover { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li.active a { color: #db2d2e; background: #f6f6f6; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li.active .drop-down-multilevel li a { color: #323232; background: transparent; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li a .drop-down-multilevel li a:hover { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li.active .drop-down-multilevel li.active a { color: #db2d2e; background: #f6f6f6; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active i { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li.active i { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li a i { color: #323232; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active:hover .drop-down-multilevel li a:hover i { color: #db2d2e; }
-.mega-menu .menu-links > li.active .drop-down-multilevel li.active .drop-down-multilevel li.active .drop-down-multilevel li a:hover { color: #db2d2e; }
-.mega-menu .row { margin-left: 0px; margin-right: 0px; }
-.mega-menu .col-md-12 { padding-left: 0px; padding-right: 0px; }
-.mega-menu.desktopTopFixed .menu-list-items { background: #323232; padding: 0px; }
-.mega-menu.desktopTopFixed .menu-logo { padding: 20px 0px; }
-.mega-menu.desktopTopFixed .search-top { padding: 26px 0; }
-.mega-menu.desktopTopFixed .search-top.search-top-open .search-box { top: 72px !important; border-bottom: 1px solid #f6f6f6; }
+
+
+
 
 /*************************
     Topbar dark
@@ -2285,3 +2257,21 @@ margin-left: -17px; line-height: 50px; }
 .footer-3.footer-simple .social ul li a { line-height: 30px; margin-right: 0; margin-left: 14px; }
 .footer-3.footer-simple .social ul li a i { background: transparent; height: inherit; width: inherit; color: #ffffff; font-size: 16px; }
 .footer-3.footer-simple .social ul li a i:hover { color: #db2d2e; background: transparent; }
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:110px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}

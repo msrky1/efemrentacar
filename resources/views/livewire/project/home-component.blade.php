@@ -180,7 +180,7 @@
           <div class="link text-center">
             <a href="#">
               <i class="fa fa-car"></i>
-              <h6>Kalite</h6>
+              <h6>KALİTELİ</h6>
             </a>
           </div>
         </div>
@@ -188,7 +188,7 @@
           <div class="link text-center">
             <a href="#">
               <i class="fa fa-tag"></i>
-              <h6>Hizmet</h6>
+              <h6>HİZMET</h6>
             </a>
           </div>
         </div>
@@ -196,7 +196,7 @@
           <div class="link text-center">
             <a href="#">
               <i class="fa fa-usd"></i>
-              <h6>Bütçenize Uygun</h6>
+              <h6>BÜTÇENİZE UYGUN</h6>
             </a>
           </div>
         </div>
@@ -204,7 +204,7 @@
           <div class="link text-center">
             <a href="#">
               <i class="fa fa-wrench"></i>
-              <h6>Servis Bakımlı</h6>
+              <h6>SERVİS BAKIMLI</h6>
             </a>
           </div>
         </div>
@@ -219,8 +219,8 @@
         <div class="col-lg-2 col-md-4 col-sm-6">
           <div class="link text-center">
             <a href="#">
-              <i class="fa fa-phone"></i>
-              <h6>İLETİŞİM</h6>
+              <i class="fa fa-car"></i>
+              <h6>ARAÇLAR</h6>
             </a>
           </div>
         </div>
@@ -273,7 +273,18 @@
                   <div class="separator"></div>
                   <div class="price">
                     
-              <a href="/iletisim"   >    <span class="new-price">İletişim </span> </a>
+                    <a href="https://wa.me/05369265914" target="_blank">     <button
+                      id="submit"
+                      name="submit"
+                      type="submit"
+                      value="Send"
+                      class="button red"
+                     
+                    >
+                    <i class="fa fa-whatsapp"></i>
+                   İletişim
+                     
+                    </button></a>
                   </div>
                 </div>
               </div>
@@ -317,20 +328,7 @@
         </div>
         @endforeach
       </div>
-      <div class="col-md-4 col-sm-6">
-        <div class="feature-box-2  ">
-         <div class="owl-carousel owl-theme" data-nav-arrow="true" data-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1" data-space="0">
-         
-           @foreach ($galery as $item)
-               
-       
-            <div class="item">
-             <img class="img-fluid" src="{{asset('storage')}}/galery/{{$item->image}}" alt="">
-            </div>
-            @endforeach
-          </div>
-        </div>
-      </div>
+      
       </div>
     </div>
    

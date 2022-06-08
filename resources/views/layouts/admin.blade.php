@@ -119,7 +119,7 @@
                 <div class="app-branding">
                     <a class="app-logo" href="/admin/home"><img class="logo-icon mr-2"
                             src="{{ asset('admin') }}/assets/images/app-logo.svg" alt="logo"><span
-                            class="logo-text">EYLEM ÇAĞRAŞ</span></a>
+                            class="logo-text">EFEM RENT A CAR</span></a>
 
                 </div>
                 <!--//app-branding-->
@@ -144,7 +144,7 @@
                             <!--//nav-link-->
                         </li>
                         <!--//nav-item-->
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
                             <a class="nav-link {{ request()->is('admin/slider*') ? 'active' : '' }}"
                                 href="/admin/slider">
@@ -157,10 +157,10 @@
 
                             </a>
                             <!--//nav-link-->
-                        </li>
+                        </li> --}}
                         <!--//nav-item-->
                         
-						<li class="nav-item">
+						{{-- <li class="nav-item">
                             <!--//clsBootstrap Icons: https://icons.getbootstrap.com/ -->
                             <a class="nav-link {{ request()->is('admin/what-do*') ? 'active' : '' }}"
                                 href="{{ route('admin.whatdo') }}">
@@ -172,7 +172,7 @@
                                 <span class="nav-link-text">Faaliyet Alanlarımız</span>
                             </a>
                             <!--//nav-link-->
-                        </li>
+                        </li> --}}
                         <!--//nav-item-->
                         <li class="nav-item">
                             <!--//clsBootstrap Icons: https://icons.getbootstrap.com/ -->
@@ -240,12 +240,12 @@
                                         <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
                                       </svg>
                                 </span>
-                                <span class="nav-link-text">Ekibimiz</span>
+                                <span class="nav-link-text">Araçlarımız</span>
                             </a>
                             <!--//nav-link-->
                         </li>
 
-                        <li class="nav-item has-submenu">
+                        {{-- <li class="nav-item has-submenu">
                             <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
                             <a class="nav-link submenu-toggle" href="#" data-toggle="collapse" data-target="#submenu-1"
                                 aria-expanded="false" aria-controls="submenu-1">
@@ -290,7 +290,7 @@
                                             href="{{ route('admin.setting') }}">Ayarlar</a></li>
                                 </ul>
                             </div>
-                        </li>
+                        </li> --}}
                         <!--//nav-item-->
                         <li class="nav-item has-submenu">
                             <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->

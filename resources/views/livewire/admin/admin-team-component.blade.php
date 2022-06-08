@@ -3,8 +3,8 @@
 
         <div class="app-content pt-3 p-md-3 p-lg-4">
             <div class="container-xl">
-                <a href="{{route('admin.team.add')}}" class="btn app-btn-primary">Ekle</a>
-                <h1 class="app-page-title">Ekibim</h1>
+                <a href="{{route('admin.team.add')}}" class="btn app-btn-primary">Araç Ekle</a>
+                <h1 class="app-page-title">Araçlar</h1>
               
 
                 <!--//app-card-->
