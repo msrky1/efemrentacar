@@ -54,7 +54,7 @@
           </div>
 
           <!-- LAYER NR. 3 -->
-          <div class="tp-caption rev-btn" id="slide-11-layer-4" data-x="['left','left','center','center']"
+          <a href="tel:536-926-59-14" >    <div class="tp-caption rev-btn" id="slide-11-layer-4" data-x="['left','left','center','center']"
             data-hoffset="['720','636','0','0']" data-y="['top','top','top','top']"
             data-voffset="['289','271','421','389']" data-fontsize="['17','17','14','13']"
             data-lineheight="['17','17','14','13']" data-width="none" data-height="none" data-whitespace="nowrap"
@@ -79,8 +79,8 @@
                 -moz-box-sizing: border-box;
                 -webkit-box-sizing: border-box;
               ">
-           Şimdi Arayın
-          </div>
+           ŞİMDİ ARAYIN
+          </div> </a>
         </li>
         <!-- SLIDE  -->
         <li data-index="rs-12" data-transition="random-static,random-premium,random"
@@ -138,7 +138,7 @@
           </div>
 
           <!-- LAYER NR. 4 -->
-          <div class="tp-caption rev-btn" id="slide-12-layer-4" data-x="['left','left','center','center']"
+          <a href="tel:530-937-03-30" >        <div class="tp-caption rev-btn" id="slide-12-layer-4" data-x="['left','left','center','center']"
             data-hoffset="['720','607','0','-1']" data-y="['top','top','top','top']"
             data-voffset="['290','266','420','412']" data-fontsize="['17','17','14','13']"
             data-lineheight="['17','17','14','13']" data-width="none" data-height="none" data-whitespace="nowrap"
@@ -165,7 +165,7 @@
                 cursor: pointer;
               ">
            ŞİMDİ ARAYIN
-          </div>
+          </div> </a>
         </li>
       </ul>
       <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important"></div>

@@ -17,7 +17,7 @@
         <div class="col-md-6">
           <div class="topbar-right text-md-end text-center">
             <ul class="list-inline">
-              <li><i class="fa fa-phone"></i>{{$item->contact}}</li>
+             <li>  <a href="tel:536-926-59-14" ><i class="fa fa-phone"></i>{{$item->contact}}</a></li> 
               <li>
                 <a target="_blank" href="https://www.facebook.com/ayaz4666"><i class="fa fa-facebook"></i></a>
               </li>
