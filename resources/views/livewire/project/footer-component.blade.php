@@ -47,7 +47,7 @@
 
       @endforeach
     
-      <div class="col-lg-3 col-md-6">
+      <div class="col-lg-3 col-md-6" >
         <div class="usefull-link">
           <h6 class="text-white">Araçlarımız</h6>
           <ul>

@@ -227,16 +227,16 @@
       </div>
     </div>
   </section>
-
+  
 
  
-  <section class="feature-car white-bg page-section-ptb">
+  <section  class="why-choose-us bg-2 bg-overlay-black-70 page-section-ptb">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="section-title">
-            <span>Efem Rent A Car </span>
-            <h2>Araçlarımız</h2>
+            {{-- <span>Efem Rent A Car </span> --}}
+            <h2 style="color: white" >Araçlarımız</h2>
             <div class="separator"></div>
           </div>
         </div>
@@ -263,7 +263,7 @@
                 </div>
                 <div class="car-list">
                   <ul class="list-inline">
-                    <li><i class="fa fa-registered"></i> {{$item->date_birth}}</li>
+                    {{-- <li><i class="fa fa-registered"></i> {{$item->date_birth}}</li> --}}
                     <li><i class="fa fa-cog"></i> {{$item->about}}</li>
                  
                   </ul>
@@ -291,6 +291,59 @@
             </div>
             @endforeach
            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="feature-car gray-bg page-section-ptb">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title">
+            {{-- <span>EFEM RENT A CAR</span> --}}
+            <h2>EFEM RENT A CAR</h2>
+            <div class="separator"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            class="owl-carousel owl-theme"
+            data-nav-dots="true"
+            data-items="3"
+            data-md-items="3"
+            data-sm-items="2"
+            data-xs-items="1"
+            data-space="15"
+          >
+            @foreach ($galery as $item)
+                
+     
+            <div class="item">
+              <div class="car-item-2 text-center">
+                <div class="car-image">
+                  <img class="img-fluid" src="{{asset('storage')}}/galery/{{$item->image}}" alt="" />
+                  <div class="car-overlay-banner">
+                    <ul>
+                      <li>
+                        <a href="/galeri"  ><i class="fa fa-link"></i></a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+                <div class="car-content">
+                  
+                  <div class="price">
+                <a href="/galeri"  >  <i class="fa fa-whatsapp"></i>
+                          Detay    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            @endforeach
           </div>
         </div>
       </div>

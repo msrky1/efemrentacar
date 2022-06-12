@@ -58,8 +58,9 @@
                 </div>
                 <div class="team-name">
                   <h5 class="text-black">{{$item->name}}</h5>
-                  <span class="text-black">{{$item->date_birth}} Model</span>
-                  <span class="text-black">{{$item->about}} Vites</span>
+                  {{-- <span class="text-black">{{$item->date_birth}} Model</span> --}}
+                  <span class="text-black">{{$item->about}} </span>
+                  <br>
                   <a href="https://wa.me/05369265914" target="_blank">     <button
                   id="submit"
                   name="submit"

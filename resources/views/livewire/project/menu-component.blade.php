@@ -67,7 +67,7 @@ mega menu -->
                     
                     
                     <li>
-                      <a href="/hakkimizda">HAKKIMIZDA   
+                      <a href="/hakkimizda">Hakkımızda   
                        
                       </a>
                       <!-- drop down second level -->
