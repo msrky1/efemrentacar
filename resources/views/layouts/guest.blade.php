@@ -20,5 +20,7 @@
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
+        <script src="/browser-sync/browser-sync-client.js"></script>
+
     </body>
 </html>

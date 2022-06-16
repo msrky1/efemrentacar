@@ -40,7 +40,7 @@
         </div>
 
         @stack('modals')
-
+        <script src="/browser-sync/browser-sync-client.js"></script>
         @livewireScripts
     </body>
 </html>
